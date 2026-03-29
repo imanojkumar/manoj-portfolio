@@ -1,0 +1,211 @@
+/* =========================================
+   RESEARCH & PUBLICATIONS TIMELINE
+========================================= */
+
+/* Reset Quarto's default containers for custom layout */
+body.page-rnd .quarto-container,
+body.page-rnd #quarto-content,
+body.page-rnd main.content {
+  max-width: 100vw !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rnd-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.rnd-header {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* =========================================
+   TIMELINE STRUCTURE
+========================================= */
+
+.timeline {
+  position: relative;
+  padding-left: 40px; /* Space for the line */
+}
+
+/* The Vertical Line */
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px; /* Centers the line under the dots */
+  width: 2px;
+  background: var(--border-color);
+  border-radius: 2px;
+}
+
+.timeline-block {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+/* The Year Node / Dot */
+.timeline-year {
+  position: absolute;
+  left: -40px; /* Aligns with the vertical line */
+  top: 0;
+  
+  background: var(--primary);
+  color: #fff;
+  font-family: var(--font-mono, monospace);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 20px;
+  box-shadow: 0 0 0 4px var(--background); /* Creates a cutout effect over the line */
+  z-index: 2;
+}
+
+/* =========================================
+   PUBLICATION CARDS
+========================================= */
+
+.timeline-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 45px; /* Pushes cards below the year marker */
+}
+
+.pub-card {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.pub-card:hover {
+  transform: translateX(6px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-light);
+}
+
+.pub-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.pub-authors {
+  font-size: 14px;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.pub-authors strong {
+  color: var(--primary);
+}
+
+.pub-journal {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* METADATA BADGES */
+.pub-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.badge {
+  font-family: var(--font-mono, monospace);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge.scopus { background: rgba(150, 51, 204, 0.1); color: var(--secondary); border: 1px solid rgba(150, 51, 204, 0.2); }
+.badge.citations { background: rgba(0, 102, 255, 0.1); color: var(--primary); border: 1px solid rgba(0, 102, 255, 0.2); }
+.badge.type { background: rgba(100, 116, 139, 0.1); color: var(--text-muted); border: 1px solid rgba(100, 116, 139, 0.2); }
+
+/* ACTION LINKS */
+.pub-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.pub-link:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+.pub-disabled {
+  font-size: 13px;
+  color: var(--text-muted);
+  opacity: 0.6;
+  cursor: not-allowed;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* =========================================
+   DARK MODE OVERRIDES
+========================================= */
+body.quarto-dark .timeline::before {
+  background: rgba(255,255,255,0.1);
+}
+body.quarto-dark .timeline-year {
+  box-shadow: 0 0 0 4px #020617;
+}
+body.quarto-dark .pub-card {
+  background-color: #0F172A !important;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+body.quarto-dark .pub-card:hover {
+  background-color: #1E293B !important;
+  border-color: #66A3FF;
+}
+body.quarto-dark .badge.scopus { background: rgba(171, 92, 214, 0.15); color: #AB5CD6; border-color: rgba(171, 92, 214, 0.3); }
+body.quarto-dark .badge.citations { background: rgba(102, 163, 255, 0.15); color: #66A3FF; border-color: rgba(102, 163, 255, 0.3); }
+body.quarto-dark .badge.type { background: rgba(203, 213, 225, 0.1); color: #CBD5E1; border-color: rgba(203, 213, 225, 0.2); }
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+@media (max-width: 768px) {
+  .timeline { padding-left: 20px; }
+  .timeline::before { left: 5px; }
+  .timeline-year { left: -10px; font-size: 12px; padding: 4px 10px; }
+  .pub-card { padding: 16px; }
+}
