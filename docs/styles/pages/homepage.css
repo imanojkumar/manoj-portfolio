@@ -1,0 +1,63 @@
+/* =========================================
+   QUARTO GRID RESET (Forces True Center)
+========================================= */
+body.page-home .quarto-container,
+body.page-home #quarto-content,
+body.page-home main.content {
+  max-width: 100vw !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* =========================================
+   HOMEPAGE
+========================================= */
+/* (Keep the rest of your existing homepage.css below this point...) */
+
+/* PAGE WRAPPER */
+.page-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: var(--spacing-lg);
+}
+
+/* HERO SPACING */
+.page-home .hero {
+  padding-top: var(--spacing-xl);
+  padding-bottom: var(--spacing-lg);
+}
+
+/* SECTION SPACING */
+.page-home section {
+  width: 100%; /* Force full width so the inner container can center */
+  margin-bottom: var(--spacing-xl);
+}
+
+/* CENTER CONTENT */
+.page-home .section-center {
+  text-align: center;
+}
+
+/* FEATURE GRID */
+.page-home .feature-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .page-home {
+    padding-top: var(--spacing-md);
+  }
+
+  .page-home .hero {
+    padding-top: var(--spacing-lg);
+  }
+}

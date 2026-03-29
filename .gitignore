@@ -1,0 +1,21 @@
+# Quarto internal cache
+.quarto/
+_site/
+
+# R / RStudio files (Since you are using an RStudio Project)
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Note: We are explicitly NOT ignoring the docs/ folder 
+# because GitHub Pages needs it to serve your website!

@@ -1,0 +1,74 @@
+---
+title: ""
+page-layout: full
+classes: page-books
+toc: false
+---
+
+```{=html}
+
+<div class="page-wrapper">
+  
+  <h1 class="page-header">Books</h1>
+
+  <div class="card-grid">
+
+    <div class="card-custom">
+      <img src="images/book1.jpg" class="card-img" alt="Machine Learning Book">
+      <h3 class="card-title">Machine Learning Book</h3>
+      <p class="card-text">A complete guide to ML using Python.</p>
+    </div>
+
+    <div class="card-custom">
+      <img src="images/book1.jpg" class="card-img" alt="Book 2">
+      <h3 class="card-title">Book 2</h3>
+      <p class="card-text">Description</p>
+    </div>
+
+    <div class="card-custom">
+      <img src="images/book1.jpg" class="card-img" alt="Book 3">
+      <h3 class="card-title">Book 3</h3>
+      <p class="card-text">Description</p>
+    </div>
+
+    <div class="card-custom">
+      <img src="images/book1.jpg" class="card-img" alt="Book 4">
+      <h3 class="card-title">Book 4</h3>
+      <p class="card-text">Description</p>
+    </div>
+
+    <div class="card-custom">
+      <img src="images/book1.jpg" class="card-img" alt="Book 5">
+      <h3 class="card-title">Book 5</h3>
+      <p class="card-text">Description</p>
+    </div>
+
+    <div class="card-custom">
+      <img src="images/book1.jpg" class="card-img" alt="Book 6">
+      <h3 class="card-title">Book 6</h3>
+      <p class="card-text">Description</p>
+    </div>
+
+  </div>
+  
+</div>
+
+
+```
+**Book 4**
+Description
+:::
+
+::: {.card-custom}
+![](images/book1.jpg){.card-img}
+**Book 5**
+Description
+:::
+
+::: {.card-custom}
+![](images/book1.jpg){.card-img}
+**Book 6**
+Description
+:::
+
+:::

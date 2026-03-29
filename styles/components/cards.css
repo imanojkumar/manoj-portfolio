@@ -1,0 +1,191 @@
+/* =========================================
+   SECTION SYSTEM (CENTERED)
+========================================= */
+
+.section {
+  width: 100%;
+  padding: 80px 20px;
+}
+
+.section-container {
+  max-width: 1100px;
+  margin: 0 auto; /* This strictly centers the grid blocks */
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+/* =========================================
+   WHAT I DO (3 CARDS)
+========================================= */
+
+.card-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card-feature {
+  background: var(--surface);
+  padding: 24px;
+  border-radius: var(--radius-md);
+  transition: all 0.3s ease;
+}
+
+.card-feature:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+}
+
+.card-icon {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: var(--primary);
+}
+
+.card-metric {
+  margin-top: 12px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+/* =========================================
+   FEATURED WORK (2 COLUMN)
+========================================= */
+
+.card-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.card-work {
+  background: var(--surface);
+  padding: 24px;
+  border-radius: var(--radius-md);
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.card-work:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+}
+
+.work-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag {
+  background: rgba(0,102,255,0.1);
+  color: var(--primary);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.work-metrics {
+  margin-top: 12px;
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* =========================================
+   CARD SYSTEM (GENERAL / BOOKS)
+========================================= */
+
+.card-custom {
+  background: var(--background);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-custom:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.card-title {
+  font-size: var(--h3-size);
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: var(--spacing-xs);
+}
+
+.card-subtitle {
+  font-size: var(--caption-size);
+  color: var(--text-muted);
+  margin-bottom: var(--spacing-sm);
+}
+
+.card-text {
+  font-size: var(--body-size);
+  color: var(--text-main);
+  margin-bottom: var(--spacing-sm);
+}
+
+.card-actions {
+  margin-top: var(--spacing-sm);
+}
+
+/* =========================================
+   DARK MODE OVERRIDES FOR CARDS
+========================================= */
+
+body.quarto-dark .card-feature,
+body.quarto-dark .card-work,
+body.quarto-dark .card-custom {
+  background-color: #0F172A !important; 
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+body.quarto-dark .card-feature:hover,
+body.quarto-dark .card-work:hover,
+body.quarto-dark .card-custom:hover {
+  background-color: #1E293B !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+body.quarto-dark .tag {
+  background: rgba(102, 163, 255, 0.15) !important;
+  color: #66A3FF !important;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+
+@media (max-width: 992px) {
+  /* Changed from 2 columns to 1 column for perfect tablet stacking */
+  .card-grid-3 {
+    grid-template-columns: 1fr; 
+  }
+
+  .card-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-grid-3 {
+    grid-template-columns: 1fr;
+  }
+}

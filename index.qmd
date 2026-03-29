@@ -1,0 +1,137 @@
+---
+title: ""
+page-layout: custom
+classes: page-home
+toc: false
+format:
+  html:
+    html-math-method: plain
+    code-fold: false
+    code-tools: false
+---
+
+```{=html}
+
+<section class="hero">
+  <div class="hero-container">
+
+    <img src="images/profile.png" class="hero-profile-img">
+
+    <h1 class="hero-name">Manoj Kumar</h1>
+
+    <p class="hero-description">
+      Data Science • AI • Digital Transformation • ESG
+    </p>
+
+    <div class="hero-actions">
+      <a href="books.qmd" class="btn">Books</a>
+      <a href="talks.qmd" class="btn">Talks</a>
+      <a href="blog.qmd" class="btn">Blogs</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="section section-what reveal">
+  <div class="section-container">
+
+    <h2 class="section-title">What I Do</h2>
+
+    <div class="card-grid-3">
+
+      <div class="card-feature">
+        <div class="card-icon"><i class="bi bi-cpu"></i></div>
+        <h3>Data Science & AI</h3>
+        <p>Predictive modeling, ML systems, and AI-driven decisions.</p>
+        <div class="card-metric">↓ 30% downtime</div>
+      </div>
+
+      <div class="card-feature">
+        <div class="card-icon"><i class="bi bi-gear"></i></div>
+        <h3>Digital Transformation</h3>
+        <p>Enterprise analytics, automation, and transformation strategy.</p>
+        <div class="card-metric">4+ enterprise projects</div>
+      </div>
+
+      <div class="card-feature">
+        <div class="card-icon"><i class="bi bi-globe"></i></div>
+        <h3>ESG & Sustainability</h3>
+        <p>Carbon accounting, ESG metrics, sustainable operations.</p>
+        <div class="card-metric">ESG aligned systems</div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="section section-work reveal">
+  <div class="section-container">
+
+    <h2 class="section-title">Featured Work</h2>
+
+    <div class="card-grid-2">
+
+      <div class="card-work">
+        <div class="work-header">
+          <h3>Predictive Maintenance</h3>
+          <span class="tag">Mining</span>
+        </div>
+
+        <p>ML models to optimize equipment lifecycle and reduce failure risk.</p>
+
+        <div class="work-metrics">
+          <span>↓ 30% downtime</span>
+          <span>↑ 20% efficiency</span>
+        </div>
+      </div>
+
+      <div class="card-work">
+        <div class="work-header">
+          <h3>AI Portfolio Strategy</h3>
+          <span class="tag">Enterprise</span>
+        </div>
+
+        <p>Framework to evaluate ROI and prioritize AI initiatives.</p>
+
+        <div class="work-metrics">
+          <span>10+ use cases</span>
+          <span>ROI framework</span>
+        </div>
+      </div>
+
+      <div class="card-work">
+        <div class="work-header">
+          <h3>Carbon Accounting</h3>
+          <span class="tag">ESG</span>
+        </div>
+
+        <p>End-to-end sustainability tracking aligned with global standards.</p>
+
+        <div class="work-metrics">
+          <span>Scope 1–3</span>
+          <span>Compliance ready</span>
+        </div>
+      </div>
+
+      <div class="card-work">
+        <div class="work-header">
+          <h3>IoT Analytics Pipeline</h3>
+          <span class="tag">Real-time</span>
+        </div>
+
+        <p>Streaming analytics system for industrial IoT data.</p>
+
+        <div class="work-metrics">
+          <span>Real-time</span>
+          <span>High scalability</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+```
+

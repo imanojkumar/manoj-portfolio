@@ -1,0 +1,8 @@
+---
+title: "Blogs"
+page-layout: full
+---
+
+## Blog Posts
+
+Coming soon...

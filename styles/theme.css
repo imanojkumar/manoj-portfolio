@@ -1,0 +1,144 @@
+/* =========================================
+   GOOGLE FONT (SIGNATURE)
+========================================= */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* =========================================
+   IMPORT BRAND
+========================================= */
+@import url("brand.css");
+
+/* =========================================
+   IMPORT COMPONENTS
+========================================= */
+@import url("components/navbar.css");
+@import url("components/buttons.css");
+@import url("components/hero.css");
+@import url("components/footer.css");
+@import url("components/cards.css");
+
+/* =========================================
+   IMPORT PAGES
+========================================= */
+@import url("pages/homepage.css");
+@import url("pages/books.css");
+
+
+/* =========================================
+   BASE GLOBAL STYLES
+========================================= */
+
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: var(--text-main);
+  background-color: var(--background);
+  overflow-x: hidden;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--text-main);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* LINKS */
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+a:hover {
+  color: var(--primary-dark);
+}
+
+/* =========================================
+   GLOBAL LAYOUT CONTROL
+========================================= */
+
+.container-fluid {
+  padding-left: var(--spacing-lg);
+  padding-right: var(--spacing-lg);
+}
+
+/* =========================================
+   DARK MODE (CLEAN + MODERN)
+========================================= */
+
+body.quarto-dark {
+  background-color: #020617;
+  color: #E2E8F0;
+}
+
+body.quarto-dark .navbar {
+  background-color: #0F172A;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+body.quarto-dark h1,
+body.quarto-dark h2,
+body.quarto-dark h3,
+body.quarto-dark h4,
+body.quarto-dark h5,
+body.quarto-dark h6 {
+  color: #F8FAFC;
+}
+
+body.quarto-dark a {
+  color: #66A3FF;
+}
+
+body.quarto-dark a:hover {
+  color: #A78BFA;
+}
+
+body.quarto-dark .navbar-nav .nav-link {
+  color: #CBD5E1;
+}
+
+body.quarto-dark .navbar-nav .nav-link:hover {
+  color: #FFFFFF;
+}
+
+/* =========================================
+   SCROLL ANIMATION (ELITE)
+========================================= */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+} 
+
+/* =========================================
+   GLOBAL RESPONSIVE (SAFE ONLY)
+========================================= */
+
+/* TABLET */
+@media (max-width: 992px) {
+  .container-fluid {
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,14 @@
+---
+title: "About"
+page-layout: full
+---
+
+## About Me
+
+I am Manoj Kumar, a professional with experience in:
+
+- Industrial Operations
+- Data Science & AI
+- Digital Transformation
+
+My focus is on applying data-driven strategies to real-world problems.

@@ -1,0 +1,20 @@
+meta:
+  name: Manoj Kumar
+
+color:
+  palette:
+    blue: "#0066FF"
+    purple: "#9633CC"
+
+  primary: blue
+  secondary: purple
+
+typography:
+  fonts:
+    - family: Inter
+      source: google
+    - family: Space Mono
+      source: google
+
+  base: Inter
+  headings: Inter

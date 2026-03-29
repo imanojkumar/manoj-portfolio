@@ -1,0 +1,48 @@
+/* =========================================
+   PREMIUM CTA BUTTONS
+========================================= */
+
+.btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+
+  background: linear-gradient(135deg, #2563EB, #7C3AED);
+  color: white;
+
+  border: none;
+  transition: all 0.3s ease;
+  
+  position: relative;
+  overflow: hidden;
+}
+
+/* HOVER EFFECT */
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+/* ripple effect */
+.btn::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background: rgba(255,255,255,0.2);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.4s ease, height 0.4s ease;
+}
+
+.btn:hover::after {
+  width: 200px;
+  height: 200px;
+}
+
+/* DARK MODE FIX */
+body.quarto-dark .btn {
+  background: linear-gradient(135deg, #3B82F6, #8B5CF6);
+}
