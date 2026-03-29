@@ -11,128 +11,18 @@ toc: false
   
   <h1 class="rnd-header">Research & Publications</h1>
 
-  <div class="timeline">
+  <div class="custom-tabs">
+    <button class="tab-btn active" data-target="tab-journals">Journal Articles</button>
+    <button class="tab-btn" data-target="tab-books">Book Chapters & Reviews</button>
+    <button class="tab-btn" data-target="tab-cases">Case Studies</button>
+    <button class="tab-btn" data-target="tab-other">Other Publications</button>
+    <button class="tab-btn" data-target="tab-timeline">Complete Timeline</button>
+  </div>
 
-    <div class="timeline-block">
-      <div class="timeline-year">2024</div>
-      <div class="timeline-content">
+  <div class="tab-content-wrapper">
 
-        <div class="pub-card">
-          <h3 class="pub-title">A literature review into leadership styles discussed in mining industry</h3>
-          <div class="pub-authors"><strong>Manoj Kumar</strong>, K.P. Abraham, M. Anand</div>
-          <div class="pub-journal">International Journal of Mining and Mineral Engineering, 15(4), 379 - 395.</div>
-          <div class="pub-badges">
-            <span class="badge citations">Citations: NA</span>
-            <span class="badge scopus">Scopus: Q4</span>
-            <span class="badge type">International</span>
-          </div>
-          <div class="pub-actions">
-            <a href="[https://doi.org/10.1504/IJMME.2024.142842](https://doi.org/10.1504/IJMME.2024.142842)" target="_blank" class="pub-link"><i class="bi bi-link-45deg"></i> View DOI</a>
-            <a href="[https://www.inderscienceonline.com/doi/epdf/10.1504/IJMME.2024.142842](https://www.inderscienceonline.com/doi/epdf/10.1504/IJMME.2024.142842)" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
-            <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
-          </div>
-        </div>
-
-        <div class="pub-card">
-          <h3 class="pub-title">AI/ML Framework for Enhancing Slope Stability Monitoring with Early Warning Alarm System in Open-Pit Mines</h3>
-          <div class="pub-authors"><strong>Manoj Kumar</strong>, K.P. Abraham</div>
-          <div class="pub-journal">Proceedings of International Conference on Mining and Beneficiation Technology (MBT), Jamshedpur, India.</div>
-          <div class="pub-badges">
-            <span class="badge citations">Citations: NA</span>
-            <span class="badge scopus">Scopus: NA</span>
-            <span class="badge type">National</span>
-          </div>
-          <div class="pub-actions">
-            <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
-            <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
-            <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="timeline-block">
-      <div class="timeline-year">2018</div>
-      <div class="timeline-content">
-
-        <div class="pub-card">
-          <h3 class="pub-title">Forecasting of mobile phone services subscription in a saturating market</h3>
-          <div class="pub-authors"><strong>Manoj Kumar</strong></div>
-          <div class="pub-journal">International Journal of Statistics and Applied Mathematics, 3(4), 184-189.</div>
-          <div class="pub-badges">
-            <span class="badge citations">Citations: NA</span>
-            <span class="badge scopus">Scopus: NA</span>
-            <span class="badge type">National</span>
-          </div>
-          <div class="pub-actions">
-            <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
-            <a href="[https://www.mathsjournal.com/pdf/2018/vol3issue4/PartB/3-4-20-625.pdf](https://www.mathsjournal.com/pdf/2018/vol3issue4/PartB/3-4-20-625.pdf)" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
-            <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="timeline-block">
-      <div class="timeline-year">2016</div>
-      <div class="timeline-content">
-
-        <div class="pub-card">
-          <h3 class="pub-title">Forecasting tourist in-flow in South East Asia: A case of Singapore</h3>
-          <div class="pub-authors"><strong>Manoj Kumar</strong>, S. Sharma</div>
-          <div class="pub-journal">Tourism & Management Studies, 12(1), 107–119.</div>
-          <div class="pub-badges">
-            <span class="badge citations">Citations: 21</span>
-            <span class="badge scopus">Scopus: Q1</span>
-            <span class="badge type">International</span>
-          </div>
-          <div class="pub-actions">
-            <a href="[https://doi.org/10.18089/tms.2016.12111](https://doi.org/10.18089/tms.2016.12111)" target="_blank" class="pub-link"><i class="bi bi-link-45deg"></i> View DOI</a>
-            <a href="[https://www.tmstudies.net/index.php/ectms/article/view/718/2381](https://www.tmstudies.net/index.php/ectms/article/view/718/2381)" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
-            <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
-          </div>
-        </div>
-
-        <div class="pub-card">
-          <h3 class="pub-title">Public transport service quality and passenger satisfaction: A case of UPSRTC, Agra, India</h3>
-          <div class="pub-authors"><strong>Manoj Kumar</strong>, V. Anand, A. Shrivastava</div>
-          <div class="pub-journal">Pacific Business Review International, 8(11), 82–92.</div>
-          <div class="pub-badges">
-            <span class="badge citations">Citations: 12</span>
-            <span class="badge scopus">Scopus: NA</span>
-            <span class="badge type">National</span>
-          </div>
-          <div class="pub-actions">
-            <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
-            <a href="[https://www.pbr.co.in/2016/2016_month/May/11.pdf](https://www.pbr.co.in/2016/2016_month/May/11.pdf)" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
-            <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
-          </div>
-        </div>
-
-        <div class="pub-card">
-          <h3 class="pub-title">Stress at work & employee's satisfaction: Study on private institutions and universities in Northern India</h3>
-          <div class="pub-authors"><strong>Manoj Kumar</strong>, K. Anand, A. Shrivastava</div>
-          <div class="pub-journal">Pacific Business Review International, 8(3), 51–56.</div>
-          <div class="pub-badges">
-            <span class="badge citations">Citations: 3</span>
-            <span class="badge scopus">Scopus: NA</span>
-            <span class="badge type">National</span>
-          </div>
-          <div class="pub-actions">
-            <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
-            <a href="[https://www.pbr.co.in/2015/2015_month/Sep/6.pdf](https://www.pbr.co.in/2015/2015_month/Sep/6.pdf)" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
-            <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="timeline-block">
-      <div class="timeline-year">2014</div>
-      <div class="timeline-content">
+    <div class="tab-pane active" id="tab-journals">
+      <div class="pub-grid">
 
         <div class="pub-card">
           <h3 class="pub-title">An application of time series ARIMA forecasting model for predicting sugarcane production in India</h3>
@@ -145,17 +35,10 @@ toc: false
           </div>
           <div class="pub-actions">
             <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
-            <a href="[https://magazines.ulbsibiu.ro/eccsf/RePEc/blg/journl/918kumar&anand.pdf](https://magazines.ulbsibiu.ro/eccsf/RePEc/blg/journl/918kumar&anand.pdf)" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+            <a href="https://magazines.ulbsibiu.ro/eccsf/RePEc/blg/journl/918kumar&anand.pdf" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
             <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
           </div>
         </div>
-
-      </div>
-    </div>
-
-    <div class="timeline-block">
-      <div class="timeline-year">2013</div>
-      <div class="timeline-content">
 
         <div class="pub-card">
           <h3 class="pub-title">Assessing financial health of a firm using Altman’s original and revised Z-score models: A case of Kingfisher Airlines Ltd (India)</h3>
@@ -163,12 +46,60 @@ toc: false
           <div class="pub-journal">Journal of Applied Management and Investments, 2(1), 36-48.</div>
           <div class="pub-badges">
             <span class="badge citations">Citations: 35</span>
-            <span class="badge scopus">Scopus: NA</span>
+            <span class="badge scopus">Scopus: No</span>
             <span class="badge type">International</span>
           </div>
           <div class="pub-actions">
             <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
-            <a href="[https://www.researchgate.net/profile/Manoj_Kumar458/publication/281775693_Kumar_and_Anand_-_Assessing_Financial_Health_Of_A_Firm_Using_Altman'S_Original_And_Revised_Z-Score_Models_A_Case_Of_Kingfisher_Airlines_Ltd_India/links/55f7eb6008aec948c47539e4.pdf](https://www.researchgate.net/profile/Manoj_Kumar458/publication/281775693_Kumar_and_Anand_-_Assessing_Financial_Health_Of_A_Firm_Using_Altman'S_Original_And_Revised_Z-Score_Models_A_Case_Of_Kingfisher_Airlines_Ltd_India/links/55f7eb6008aec948c47539e4.pdf)" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+            <a href="https://www.researchgate.net/profile/Manoj_Kumar458/publication/281775693_Kumar_and_Anand_-_Assessing_Financial_Health_Of_A_Firm_Using_Altman'S_Original_And_Revised_Z-Score_Models_A_Case_Of_Kingfisher_Airlines_Ltd_India/links/55f7eb6008aec948c47539e4.pdf" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+            <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+          </div>
+        </div>
+
+        <div class="pub-card">
+          <h3 class="pub-title">Forecasting tourist in-flow in South East Asia: A case of Singapore</h3>
+          <div class="pub-authors"><strong>Manoj Kumar</strong>, S. Sharma</div>
+          <div class="pub-journal">Tourism & Management Studies, 12(1), 107–119.</div>
+          <div class="pub-badges">
+            <span class="badge citations">Citations: 21</span>
+            <span class="badge scopus">Scopus: Q1</span>
+            <span class="badge type">International</span>
+          </div>
+          <div class="pub-actions">
+            <a href="https://doi.org/10.18089/tms.2016.12111" target="_blank" class="pub-link"><i class="bi bi-link-45deg"></i> View DOI</a>
+            <a href="https://www.tmstudies.net/index.php/ectms/article/view/718/2381" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+            <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+          </div>
+        </div>
+
+        <div class="pub-card">
+          <h3 class="pub-title">Public transport service quality and passenger satisfaction: A case of UPSRTC, Agra, India</h3>
+          <div class="pub-authors"><strong>Manoj Kumar</strong>, V. Anand, A. Shrivastava</div>
+          <div class="pub-journal">Pacific Business Review International, 8(11), 82–92.</div>
+          <div class="pub-badges">
+            <span class="badge citations">Citations: 12</span>
+            <span class="badge scopus">Scopus: No</span>
+            <span class="badge type">National</span>
+          </div>
+          <div class="pub-actions">
+            <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+            <a href="https://www.pbr.co.in/2016/2016_month/May/11.pdf" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+            <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+          </div>
+        </div>
+
+        <div class="pub-card">
+          <h3 class="pub-title">Stress at work & employee's satisfaction: Study on private institutions and universities in Northern India</h3>
+          <div class="pub-authors"><strong>Manoj Kumar</strong>, K. Anand, A. Shrivastava</div>
+          <div class="pub-journal">Pacific Business Review International, 8(3), 51–56.</div>
+          <div class="pub-badges">
+            <span class="badge citations">Citations: 3</span>
+            <span class="badge scopus">Scopus: No</span>
+            <span class="badge type">National</span>
+          </div>
+          <div class="pub-actions">
+            <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+            <a href="https://www.pbr.co.in/2015/2015_month/Sep/6.pdf" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
             <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
           </div>
         </div>
@@ -179,28 +110,44 @@ toc: false
           <div class="pub-journal">Journal of Financial Assets and Investing.</div>
           <div class="pub-badges">
             <span class="badge citations">Citations: 1</span>
-            <span class="badge scopus">Scopus: NA</span>
+            <span class="badge scopus">Scopus: No</span>
             <span class="badge type">International</span>
           </div>
           <div class="pub-actions">
-            <a href="[https://doi.org/10.5817/FAI2014-1-2](https://doi.org/10.5817/FAI2014-1-2)" target="_blank" class="pub-link"><i class="bi bi-link-45deg"></i> View DOI</a>
+            <a href="https://doi.org/10.5817/FAI2014-1-2" target="_blank" class="pub-link"><i class="bi bi-link-45deg"></i> View DOI</a>
             <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
             <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
           </div>
         </div>
 
         <div class="pub-card">
-          <h3 class="pub-title">A book review on "Marketing Research: A Practical Approach"</h3>
-          <div class="pub-authors"><strong>Manoj Kumar</strong></div>
-          <div class="pub-journal">Serbian Journal of Management, 8(1).</div>
+          <h3 class="pub-title">A literature review into leadership styles discussed in mining industry</h3>
+          <div class="pub-authors"><strong>Manoj Kumar</strong>, K.P. Abraham, M. Anand</div>
+          <div class="pub-journal">International Journal of Mining and Mineral Engineering, 15(4), 379 - 395.</div>
           <div class="pub-badges">
             <span class="badge citations">Citations: NA</span>
             <span class="badge scopus">Scopus: Q4</span>
             <span class="badge type">International</span>
           </div>
           <div class="pub-actions">
+            <a href="https://doi.org/10.1504/IJMME.2024.142842" target="_blank" class="pub-link"><i class="bi bi-link-45deg"></i> View DOI</a>
+            <a href="https://www.inderscienceonline.com/doi/epdf/10.1504/IJMME.2024.142842" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+            <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+          </div>
+        </div>
+
+        <div class="pub-card">
+          <h3 class="pub-title">Forecasting of mobile phone services subscription in a saturating market</h3>
+          <div class="pub-authors"><strong>Manoj Kumar</strong></div>
+          <div class="pub-journal">International Journal of Statistics and Applied Mathematics, 3(4), 184-189.</div>
+          <div class="pub-badges">
+            <span class="badge citations">Citations: NA</span>
+            <span class="badge scopus">Scopus: No</span>
+            <span class="badge type">National</span>
+          </div>
+          <div class="pub-actions">
             <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
-            <a href="[https://www.sjm06.com/SJM%20ISSN1452-4864/8_1_2013_May_1_132/8_1_2013_113-115.pdf](https://www.sjm06.com/SJM%20ISSN1452-4864/8_1_2013_May_1_132/8_1_2013_113-115.pdf)" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+            <a href="https://www.mathsjournal.com/pdf/2018/vol3issue4/PartB/3-4-20-625.pdf" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
             <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
           </div>
         </div>
@@ -211,12 +158,12 @@ toc: false
           <div class="pub-journal">Adarsh Journal of Management Research. 6(2), 4–16.</div>
           <div class="pub-badges">
             <span class="badge citations">Citations: NA</span>
-            <span class="badge scopus">Scopus: NA</span>
+            <span class="badge scopus">Scopus: No</span>
             <span class="badge type">National</span>
           </div>
           <div class="pub-actions">
-            <a href="[https://doi.org/10.21095/ajmr/2013/v6/i2/88257](https://doi.org/10.21095/ajmr/2013/v6/i2/88257)" target="_blank" class="pub-link"><i class="bi bi-link-45deg"></i> View DOI</a>
-            <a href="[https://www.adarshjournals.in/index.php/ajmr/article/view/88257/67261](https://www.adarshjournals.in/index.php/ajmr/article/view/88257/67261)" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+            <a href="https://doi.org/10.21095/ajmr/2013/v6/i2/88257" target="_blank" class="pub-link"><i class="bi bi-link-45deg"></i> View DOI</a>
+            <a href="https://www.adarshjournals.in/index.php/ajmr/article/view/88257/67261" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
             <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
           </div>
         </div>
@@ -227,7 +174,7 @@ toc: false
           <div class="pub-journal">MSR Management Review, 4(2).</div>
           <div class="pub-badges">
             <span class="badge citations">Citations: NA</span>
-            <span class="badge scopus">Scopus: NA</span>
+            <span class="badge scopus">Scopus: No</span>
             <span class="badge type">National</span>
           </div>
           <div class="pub-actions">
@@ -243,7 +190,7 @@ toc: false
           <div class="pub-journal">Journal of GNA-IMT.</div>
           <div class="pub-badges">
             <span class="badge citations">Citations: NA</span>
-            <span class="badge scopus">Scopus: NA</span>
+            <span class="badge scopus">Scopus: No</span>
             <span class="badge type">National</span>
           </div>
           <div class="pub-actions">
@@ -252,13 +199,6 @@ toc: false
             <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
           </div>
         </div>
-
-      </div>
-    </div>
-
-    <div class="timeline-block">
-      <div class="timeline-year">2011</div>
-      <div class="timeline-content">
 
         <div class="pub-card">
           <h3 class="pub-title">Testing of IPO underpricing inefficiency at Dhaka Stock Exchange</h3>
@@ -266,7 +206,7 @@ toc: false
           <div class="pub-journal">MSR Management Review, 3(2).</div>
           <div class="pub-badges">
             <span class="badge citations">Citations: NA</span>
-            <span class="badge scopus">Scopus: NA</span>
+            <span class="badge scopus">Scopus: No</span>
             <span class="badge type">National</span>
           </div>
           <div class="pub-actions">
@@ -279,9 +219,30 @@ toc: false
       </div>
     </div>
 
-    <div class="timeline-block">
-      <div class="timeline-year">Prior</div>
-      <div class="timeline-content">
+    <div class="tab-pane" id="tab-books">
+      <div class="pub-grid">
+
+        <div class="pub-card">
+          <h3 class="pub-title">A book review on "Marketing Research: A Practical Approach"</h3>
+          <div class="pub-authors"><strong>Manoj Kumar</strong></div>
+          <div class="pub-journal">Serbian Journal of Management, 8(1).</div>
+          <div class="pub-badges">
+            <span class="badge citations">Citations: NA</span>
+            <span class="badge scopus">Scopus: Q4</span>
+            <span class="badge type">International</span>
+          </div>
+          <div class="pub-actions">
+            <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+            <a href="https://www.sjm06.com/SJM%20ISSN1452-4864/8_1_2013_May_1_132/8_1_2013_113-115.pdf" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+            <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="tab-pane" id="tab-cases">
+      <div class="pub-grid">
 
         <div class="pub-card">
           <h3 class="pub-title">Hyderabad House’s franchisee operating model (Interview case)</h3>
@@ -289,13 +250,35 @@ toc: false
           <div class="pub-journal">IBS Case Development Centre (2009).</div>
           <div class="pub-badges">
             <span class="badge citations">Citations: NA</span>
-            <span class="badge scopus">Scopus: NA</span>
+            <span class="badge scopus">Scopus: No</span>
             <span class="badge type">National</span>
           </div>
           <div class="pub-actions">
             <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
             <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
-            <a href="[https://www.ibscdc.org/video-interview/Zubair-Ahmed.asp](https://www.ibscdc.org/video-interview/Zubair-Ahmed.asp)" target="_blank" class="pub-link"><i class="bi bi-box-arrow-up-right"></i> View Link</a>
+            <a href="https://www.ibscdc.org/video-interview/Zubair-Ahmed.asp" target="_blank" class="pub-link"><i class="bi bi-box-arrow-up-right"></i> View Link</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="tab-pane" id="tab-other">
+      <div class="pub-grid">
+
+        <div class="pub-card">
+          <h3 class="pub-title">AI/ML Framework for Enhancing Slope Stability Monitoring with Early Warning Alarm System in Open-Pit Mines</h3>
+          <div class="pub-authors"><strong>Manoj Kumar</strong>, K.P. Abraham</div>
+          <div class="pub-journal">Proceedings of International Conference on Mining and Beneficiation Technology (MBT).</div>
+          <div class="pub-badges">
+            <span class="badge citations">Citations: NA</span>
+            <span class="badge scopus">Scopus: No</span>
+            <span class="badge type">National</span>
+          </div>
+          <div class="pub-actions">
+            <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+            <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
+            <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
           </div>
         </div>
 
@@ -305,13 +288,13 @@ toc: false
           <div class="pub-journal">Proceedings of Third Indian Conference on Computer Application in Mineral Industry (ICCAMI-2001), New Delhi.</div>
           <div class="pub-badges">
             <span class="badge citations">Citations: NA</span>
-            <span class="badge scopus">Scopus: NA</span>
+            <span class="badge scopus">Scopus: No</span>
             <span class="badge type">National</span>
           </div>
           <div class="pub-actions">
             <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
             <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
-            <a href="[https://books.google.co.in/books/about/Computer_Applications_in_Mineral_Industr.html?id=f4Y7AAAACAAJ&redir_esc=y](https://books.google.co.in/books/about/Computer_Applications_in_Mineral_Industr.html?id=f4Y7AAAACAAJ&redir_esc=y)" target="_blank" class="pub-link"><i class="bi bi-box-arrow-up-right"></i> View Link</a>
+            <a href="https://books.google.co.in/books/about/Computer_Applications_in_Mineral_Industr.html?id=f4Y7AAAACAAJ&redir_esc=y" target="_blank" class="pub-link"><i class="bi bi-box-arrow-up-right"></i> View Link</a>
           </div>
         </div>
 
@@ -321,7 +304,7 @@ toc: false
           <div class="pub-journal">Proceedings of National Seminar on Maintenance Engineering (2001).</div>
           <div class="pub-badges">
             <span class="badge citations">Citations: NA</span>
-            <span class="badge scopus">Scopus: NA</span>
+            <span class="badge scopus">Scopus: No</span>
             <span class="badge type">National</span>
           </div>
           <div class="pub-actions">
@@ -334,8 +317,334 @@ toc: false
       </div>
     </div>
 
-  </div>
-</div>
+    <div class="tab-pane" id="tab-timeline">
+      <div class="timeline">
 
+        <div class="timeline-block">
+          <div class="timeline-year">2024</div>
+          <div class="timeline-content">
+
+            <div class="pub-card">
+              <h3 class="pub-title">A literature review into leadership styles discussed in mining industry</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong>, K.P. Abraham, M. Anand</div>
+              <div class="pub-journal">International Journal of Mining and Mineral Engineering, 15(4), 379 - 395.</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: NA</span>
+                <span class="badge scopus">Scopus: Q4</span>
+                <span class="badge type">International</span>
+              </div>
+              <div class="pub-actions">
+                <a href="https://doi.org/10.1504/IJMME.2024.142842" target="_blank" class="pub-link"><i class="bi bi-link-45deg"></i> View DOI</a>
+                <a href="https://www.inderscienceonline.com/doi/epdf/10.1504/IJMME.2024.142842" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+            <div class="pub-card">
+              <h3 class="pub-title">AI/ML Framework for Enhancing Slope Stability Monitoring with Early Warning Alarm System in Open-Pit Mines</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong>, K.P. Abraham</div>
+              <div class="pub-journal">Proceedings of International Conference on Mining and Beneficiation Technology (MBT).</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: NA</span>
+                <span class="badge scopus">Scopus: No</span>
+                <span class="badge type">National</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="timeline-block">
+          <div class="timeline-year">2018</div>
+          <div class="timeline-content">
+
+            <div class="pub-card">
+              <h3 class="pub-title">Forecasting of mobile phone services subscription in a saturating market</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong></div>
+              <div class="pub-journal">International Journal of Statistics and Applied Mathematics, 3(4), 184-189.</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: NA</span>
+                <span class="badge scopus">Scopus: No</span>
+                <span class="badge type">National</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <a href="https://www.mathsjournal.com/pdf/2018/vol3issue4/PartB/3-4-20-625.pdf" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="timeline-block">
+          <div class="timeline-year">2016</div>
+          <div class="timeline-content">
+
+            <div class="pub-card">
+              <h3 class="pub-title">Forecasting tourist in-flow in South East Asia: A case of Singapore</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong>, S. Sharma</div>
+              <div class="pub-journal">Tourism & Management Studies, 12(1), 107–119.</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: 21</span>
+                <span class="badge scopus">Scopus: Q1</span>
+                <span class="badge type">International</span>
+              </div>
+              <div class="pub-actions">
+                <a href="https://doi.org/10.18089/tms.2016.12111" target="_blank" class="pub-link"><i class="bi bi-link-45deg"></i> View DOI</a>
+                <a href="https://www.tmstudies.net/index.php/ectms/article/view/718/2381" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+            <div class="pub-card">
+              <h3 class="pub-title">Public transport service quality and passenger satisfaction: A case of UPSRTC, Agra, India</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong>, V. Anand, A. Shrivastava</div>
+              <div class="pub-journal">Pacific Business Review International, 8(11), 82–92.</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: 12</span>
+                <span class="badge scopus">Scopus: No</span>
+                <span class="badge type">National</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <a href="https://www.pbr.co.in/2016/2016_month/May/11.pdf" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+            <div class="pub-card">
+              <h3 class="pub-title">Stress at work & employee's satisfaction: Study on private institutions and universities in Northern India</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong>, K. Anand, A. Shrivastava</div>
+              <div class="pub-journal">Pacific Business Review International, 8(3), 51–56.</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: 3</span>
+                <span class="badge scopus">Scopus: No</span>
+                <span class="badge type">National</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <a href="https://www.pbr.co.in/2015/2015_month/Sep/6.pdf" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="timeline-block">
+          <div class="timeline-year">2014</div>
+          <div class="timeline-content">
+
+            <div class="pub-card">
+              <h3 class="pub-title">An application of time series ARIMA forecasting model for predicting sugarcane production in India</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong>, M. Anand</div>
+              <div class="pub-journal">Studies in Business and Economics, 9(1), 81–94.</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: 182</span>
+                <span class="badge scopus">Scopus: Q3</span>
+                <span class="badge type">International</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <a href="https://magazines.ulbsibiu.ro/eccsf/RePEc/blg/journl/918kumar&anand.pdf" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="timeline-block">
+          <div class="timeline-year">2013</div>
+          <div class="timeline-content">
+
+            <div class="pub-card">
+              <h3 class="pub-title">Assessing financial health of a firm using Altman’s original and revised Z-score models: A case of Kingfisher Airlines Ltd (India)</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong>, M. Anand</div>
+              <div class="pub-journal">Journal of Applied Management and Investments, 2(1), 36-48.</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: 35</span>
+                <span class="badge scopus">Scopus: No</span>
+                <span class="badge type">International</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <a href="https://www.researchgate.net/profile/Manoj_Kumar458/publication/281775693_Kumar_and_Anand_-_Assessing_Financial_Health_Of_A_Firm_Using_Altman'S_Original_And_Revised_Z-Score_Models_A_Case_Of_Kingfisher_Airlines_Ltd_India/links/55f7eb6008aec948c47539e4.pdf" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+            <div class="pub-card">
+              <h3 class="pub-title">Factors affecting tax payers’ decisions in saving tax by investing in tax saving bonds: A study in U.P. State, India</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong></div>
+              <div class="pub-journal">Journal of Financial Assets and Investing.</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: 1</span>
+                <span class="badge scopus">Scopus: Yes</span>
+                <span class="badge type">International</span>
+              </div>
+              <div class="pub-actions">
+                <a href="https://doi.org/10.5817/FAI2014-1-2" target="_blank" class="pub-link"><i class="bi bi-link-45deg"></i> View DOI</a>
+                <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+            <div class="pub-card">
+              <h3 class="pub-title">A book review on "Marketing Research: A Practical Approach"</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong></div>
+              <div class="pub-journal">Serbian Journal of Management, 8(1).</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: NA</span>
+                <span class="badge scopus">Scopus: Q4</span>
+                <span class="badge type">International</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <a href="https://www.sjm06.com/SJM%20ISSN1452-4864/8_1_2013_May_1_132/8_1_2013_113-115.pdf" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+            <div class="pub-card">
+              <h3 class="pub-title">Critical attributes in service quality & passenger satisfaction: An empirical study of UPSRTC in Agra District</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong>, M. Anand</div>
+              <div class="pub-journal">Adarsh Journal of Management Research. 6(2), 4–16.</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: NA</span>
+                <span class="badge scopus">Scopus: No</span>
+                <span class="badge type">National</span>
+              </div>
+              <div class="pub-actions">
+                <a href="https://doi.org/10.21095/ajmr/2013/v6/i2/88257" target="_blank" class="pub-link"><i class="bi bi-link-45deg"></i> View DOI</a>
+                <a href="https://www.adarshjournals.in/index.php/ajmr/article/view/88257/67261" target="_blank" class="pub-link"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+            <div class="pub-card">
+              <h3 class="pub-title">Analyzing tax payers’ investment interests in tax free bonds in Uttar Pradesh (West)</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong></div>
+              <div class="pub-journal">MSR Management Review, 4(2).</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: NA</span>
+                <span class="badge scopus">Scopus: No</span>
+                <span class="badge type">National</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+            <div class="pub-card">
+              <h3 class="pub-title">Exploring EVA® and dividend payout relation: A case of Reliance Infrastructure Ltd</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong>, A. Malhotra</div>
+              <div class="pub-journal">Journal of GNA-IMT.</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: NA</span>
+                <span class="badge scopus">Scopus: No</span>
+                <span class="badge type">National</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="timeline-block">
+          <div class="timeline-year">2011</div>
+          <div class="timeline-content">
+
+            <div class="pub-card">
+              <h3 class="pub-title">Testing of IPO underpricing inefficiency at Dhaka Stock Exchange</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong></div>
+              <div class="pub-journal">MSR Management Review, 3(2).</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: NA</span>
+                <span class="badge scopus">Scopus: No</span>
+                <span class="badge type">National</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="timeline-block">
+          <div class="timeline-year">Prior</div>
+          <div class="timeline-content">
+
+            <div class="pub-card">
+              <h3 class="pub-title">Hyderabad House’s franchisee operating model (Interview case)</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong>, N. Chandrakar</div>
+              <div class="pub-journal">IBS Case Development Centre (2009).</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: NA</span>
+                <span class="badge scopus">Scopus: No</span>
+                <span class="badge type">National</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
+                <a href="https://www.ibscdc.org/video-interview/Zubair-Ahmed.asp" target="_blank" class="pub-link"><i class="bi bi-box-arrow-up-right"></i> View Link</a>
+              </div>
+            </div>
+
+            <div class="pub-card">
+              <h3 class="pub-title">Maintenance information in mines using Visual Basic as a tool</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong>, A. N. Sinha</div>
+              <div class="pub-journal">Proceedings of Third Indian Conference on Computer Application in Mineral Industry (ICCAMI-2001), New Delhi.</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: NA</span>
+                <span class="badge scopus">Scopus: No</span>
+                <span class="badge type">National</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
+                <a href="https://books.google.co.in/books/about/Computer_Applications_in_Mineral_Industr.html?id=f4Y7AAAACAAJ&redir_esc=y" target="_blank" class="pub-link"><i class="bi bi-box-arrow-up-right"></i> View Link</a>
+              </div>
+            </div>
+
+            <div class="pub-card">
+              <h3 class="pub-title">Maintenance information management</h3>
+              <div class="pub-authors"><strong>Manoj Kumar</strong>, A. N. Sinha</div>
+              <div class="pub-journal">Proceedings of National Seminar on Maintenance Engineering (2001).</div>
+              <div class="pub-badges">
+                <span class="badge citations">Citations: NA</span>
+                <span class="badge scopus">Scopus: No</span>
+                <span class="badge type">National</span>
+              </div>
+              <div class="pub-actions">
+                <span class="pub-disabled"><i class="bi bi-link-45deg"></i> View DOI</span>
+                <span class="pub-disabled"><i class="bi bi-file-earmark-pdf"></i> Download PDF</span>
+                <span class="pub-disabled"><i class="bi bi-box-arrow-up-right"></i> View Link</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div> 
+</div>
 
 ```

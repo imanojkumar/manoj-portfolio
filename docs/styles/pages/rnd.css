@@ -225,3 +225,127 @@ body.quarto-dark .badge.type { background: rgba(203, 213, 225, 0.1); color: #CBD
   .timeline-year { left: -10px; font-size: 12px; padding: 4px 10px; }
   .pub-card { padding: 16px; }
 }
+
+
+/* =========================================
+   FULL-WIDTH BLOCK TABS (W3SCHOOLS STYLE)
+========================================= */
+
+.pub-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  padding-top: 10px;
+}
+
+/* TAB NAVIGATION (FULL WIDTH CONTAINER) */
+.custom-tabs {
+  display: flex;
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: var(--radius-md); /* Rounds the outer corners of the tab bar */
+  overflow: hidden; /* Keeps the buttons inside the rounded corners */
+  border: 1px solid var(--border-color);
+  background-color: var(--surface);
+}
+
+.tab-btn {
+  flex: 1; /* Forces all 5 buttons to take exactly equal width (20% each) */
+  background: transparent;
+  color: var(--text-main);
+  border: none;
+  border-right: 1px solid var(--border-color);
+  
+  font-family: var(--font-heading);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 16px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+/* Remove the border from the very last button so it doesn't double up */
+.tab-btn:last-child {
+  border-right: none;
+}
+
+/* HOVER STATE (INACTIVE) */
+.tab-btn:hover {
+  background-color: rgba(0, 102, 255, 0.08); /* Subtle blue tint */
+  color: var(--primary);
+}
+
+/* ACTIVE TAB (SOLID FILL) */
+.tab-btn.active {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+/* =========================================
+   DARK MODE TABS
+========================================= */
+body.quarto-dark .custom-tabs {
+  border-color: rgba(255,255,255,0.1);
+  background-color: #0F172A;
+}
+
+body.quarto-dark .tab-btn {
+  color: #94A3B8;
+  border-right-color: rgba(255,255,255,0.1);
+}
+
+body.quarto-dark .tab-btn:hover {
+  background-color: rgba(102, 163, 255, 0.1);
+  color: #E2E8F0;
+}
+
+body.quarto-dark .tab-btn.active {
+  background-color: #0066FF; 
+  color: #ffffff;
+}
+
+/* =========================================
+   TAB PANES & ANIMATION
+========================================= */
+
+.tab-pane {
+  display: none;
+  animation: tabFadeIn 0.4s ease forwards;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+@keyframes tabFadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================================
+   RESPONSIVE GRID & TABS
+========================================= */
+@media (max-width: 992px) {
+  .pub-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+  /* On mobile, 5 tabs side-by-side are too small to tap. 
+     This stacks them into a neat vertical menu! */
+  .custom-tabs {
+    flex-direction: column;
+  }
+  .tab-btn {
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    width: 100%;
+    padding: 14px 10px;
+  }
+  .tab-btn:last-child {
+    border-bottom: none;
+  }
+  body.quarto-dark .tab-btn {
+    border-bottom-color: rgba(255,255,255,0.1);
+  }
+}

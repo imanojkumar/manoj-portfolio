@@ -39,6 +39,32 @@ document.addEventListener("DOMContentLoaded", function () {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
+  
+  // =========================================
+  // CUSTOM TABS LOGIC (RESEARCH PAGE)
+  // =========================================
+  const tabBtns = document.querySelectorAll('.tab-btn');
+  const tabPanes = document.querySelectorAll('.tab-pane');
+
+  if (tabBtns.length > 0) {
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // 1. Remove 'active' class from all buttons and panes
+        tabBtns.forEach(b => b.classList.remove('active'));
+        tabPanes.forEach(p => p.classList.remove('active'));
+
+        // 2. Add 'active' class to the clicked button
+        btn.classList.add('active');
+
+        // 3. Find the target pane and activate it
+        const targetId = btn.getAttribute('data-target');
+        const targetPane = document.getElementById(targetId);
+        if (targetPane) {
+          targetPane.classList.add('active');
+        }
+      });
+    });
+  }
 
 });
 
