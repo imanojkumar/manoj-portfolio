@@ -196,6 +196,22 @@ body.quarto-dark .pub-card:hover {
   background-color: #1E293B !important;
   border-color: #66A3FF;
 }
+
+/* Fix for author text visibility in dark mode */
+body.quarto-dark .pub-authors {
+  color: #E2E8F0; 
+}
+
+/* Brighten your bolded name in dark mode for better contrast */
+body.quarto-dark .pub-authors strong {
+  color: #66A3FF; 
+}
+
+/* Brighten the journal text slightly so it doesn't fade into the background */
+body.quarto-dark .pub-journal {
+  color: #94A3B8; 
+}
+
 body.quarto-dark .badge.scopus { background: rgba(171, 92, 214, 0.15); color: #AB5CD6; border-color: rgba(171, 92, 214, 0.3); }
 body.quarto-dark .badge.citations { background: rgba(102, 163, 255, 0.15); color: #66A3FF; border-color: rgba(102, 163, 255, 0.3); }
 body.quarto-dark .badge.type { background: rgba(203, 213, 225, 0.1); color: #CBD5E1; border-color: rgba(203, 213, 225, 0.2); }
