@@ -1,48 +1,51 @@
 /* =========================================
-   PREMIUM CTA BUTTONS
+   PREMIUM CTA BUTTONS (MODERN TECH)
 ========================================= */
 
 .btn {
-  padding: 10px 20px;
+  padding: 10px 28px;
   font-size: 14px;
+  font-weight: 600;
   border-radius: 8px;
 
-  background: linear-gradient(135deg, #2563EB, #7C3AED);
-  color: white;
-
-  border: none;
-  transition: all 0.3s ease;
+  /* Professional solid brand blue */
+  background-color: var(--primary);
+  color: #ffffff;
+  border: 1px solid var(--primary);
   
-  position: relative;
-  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* HOVER EFFECT */
+/* HOVER EFFECT (LIGHT MODE) */
 .btn:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+  color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px rgba(0, 102, 255, 0.25);
 }
 
-/* ripple effect */
-.btn::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  background: rgba(255,255,255,0.2);
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: width 0.4s ease, height 0.4s ease;
-}
+/* =========================================
+   DARK MODE OVERRIDES (PREMIUM GHOST BUTTON)
+========================================= */
 
-.btn:hover::after {
-  width: 200px;
-  height: 200px;
-}
-
-/* DARK MODE FIX */
 body.quarto-dark .btn {
-  background: linear-gradient(135deg, #3B82F6, #8B5CF6);
+  /* Subtle tinted background with a crisp border */
+  background-color: rgba(102, 163, 255, 0.1); 
+  color: var(--primary-light); 
+  border: 1px solid var(--primary-light);
+}
+
+body.quarto-dark .btn:hover {
+  /* Fills solid and glows on hover */
+  background-color: var(--primary-light);
+  color: #020617; /* Dark text for high contrast against the bright button */
+  box-shadow: 0 0 20px rgba(102, 163, 255, 0.4);
+  transform: translateY(-2px);
 }

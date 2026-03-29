@@ -17,5 +17,7 @@ _site/
 ehthumbs.db
 Thumbs.db
 
-# Note: We are explicitly NOT ignoring the docs/ folder 
+# Note: We are explicitly NOT ignoring the docs/ folder
 # because GitHub Pages needs it to serve your website!
+/.quarto/
+**/*.quarto_ipynb
