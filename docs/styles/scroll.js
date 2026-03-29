@@ -65,6 +65,24 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
+  
+  // =========================================
+  // SECURE EMAIL OBFUSCATION
+  // =========================================
+  const secureContactBtn = document.getElementById('secure-contact');
+  
+  if (secureContactBtn) {
+    secureContactBtn.addEventListener('click', function(e) {
+      e.preventDefault(); // Stops the page from jumping to the top
+      
+      // We split the email into variables so bots cannot scrape the full string
+      const user = "mkumar75";
+      const domain = "gmail.com";
+      
+      // This launches the user's email client securely
+      window.location.href = "mailto:" + user + "@" + domain;
+    });
+  }
 
 });
 
